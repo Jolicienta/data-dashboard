@@ -1,3 +1,115 @@
 /*
  * Estilos de tu proyecto
+ font-family: 'Open Sans', sans-serif;
+ font-family: 'Roboto', sans-serif;
+ color: #FFC107;
+ color: #F7F7F7;
+ color: #333333;
  */
+
+body {
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+header nav {
+  background-color: #fff;
+  background-attachment: fixed;
+  height: 70px;
+  width: 100% auto;
+}
+
+header #lab-logo {
+  background-image: url(../assets/images/logo-laboratoria.svg);
+  background-size: cover;
+  width: 180px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: inline-block;
+  float: left;
+  margin-top: 10px;
+  margin-left: 40%;
+}
+
+header nav .btn-idioma, #display-sedes {
+  margin-right: 4%;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 auto;
+  flex: auto;
+  margin-left: 30%;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #FFC107;
+}
+
+header nav .btn-idioma a {
+  text-decoration: none;
+  color: #FFC107;
+  padding-left: 10px;
+}
+
+header nav #display-sedes {
+  padding-left: 10px;
+  width: 170px;
+  line-height: 30px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+header .organizador {
+  height: 80px;
+  background-color: #FFC107;
+}
+
+header .organizador #display-generacion {
+  text-align: center;
+  line-height: 30px;
+  width: 250px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333333;
+}
+
+header .organizador .menus {
+ margin-top: 10px;
+ margin-left: 8%;
+}
+
+header .organizador .menus li {
+  list-style: none;
+  text-decoration: none;
+  float: left;
+  margin-right: 25px;
+  border: 1px solid black;
+}
+
+header .organizador .menus li a {
+  text-decoration: none;
+  padding: 7px 20px 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+header .organizador .menus li a:hover {
+  background-color: #F7F7F7;
+  color: #333333;
+}
+
+/*generacion menu desplegable */
+header .organizador #display-generacion {
+  
+}
+
+
+section {
+  background-color: #F7F7F7;
+  background-attachment: local;
+  height: 500px;
+  width: 100% auto;
+}
